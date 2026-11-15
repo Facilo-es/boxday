@@ -1,0 +1,14 @@
+{
+ "$schema": "https://schemas.wp.org/trunk/block.json",
+ "apiVersion": 3,
+ "name": "boxday/this-week",
+ "title": "BoxDay this week's box",
+ "category": "widgets",
+ "icon": "carrot",
+ "textdomain": "boxday",
+ "editorScript": "boxday-blocks",
+ "supports": {
+  "html": false
+ },
+ "attributes": {}
+}

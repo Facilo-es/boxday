@@ -1,0 +1,2497 @@
+# Copyright (C) 2026 Facilo
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: BoxDay 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/boxday\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-02T11:38:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: boxday\n"
+
+#. Plugin Name of the plugin
+#: boxday.php
+msgid "BoxDay – CSA Farm Shares for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+#: boxday.php
+msgid "Fill your CSA from your own website: sign-ups, payment plans, swaps, skips, harvest totals and pickup sheets. No monthly fee, no share of sales."
+msgstr ""
+
+#. Author of the plugin
+#: boxday.php
+msgid "Facilo"
+msgstr ""
+
+#: includes/class-admin-print.php:45
+#: includes/class-admin.php:132
+msgid "Sorry, you are not allowed to do that."
+msgstr ""
+
+#: includes/class-admin-print.php:96
+#: includes/class-admin-print.php:174
+msgid "Item"
+msgstr ""
+
+#: includes/class-admin-print.php:96
+#: includes/class-admin-screens.php:447
+#: includes/class-admin-screens.php:529
+msgid "Unit"
+msgstr ""
+
+#: includes/class-admin-print.php:96
+msgid "Before swaps"
+msgstr ""
+
+#: includes/class-admin-print.php:96
+msgid "After swaps"
+msgstr ""
+
+#. translators: %d: boxes.
+#: includes/class-admin-print.php:145
+#, php-format
+msgid "%d boxes to hand out."
+msgstr ""
+
+#: includes/class-admin-print.php:148
+#: includes/class-admin-roster.php:212
+#: includes/class-admin-screens.php:590
+#: includes/class-admin-setup.php:249
+#: includes/class-waitlist.php:66
+msgid "Name"
+msgstr ""
+
+#: includes/class-admin-print.php:148
+#: includes/class-admin-screens.php:763
+#: includes/class-admin-setup.php:158
+msgid "Box"
+msgstr ""
+
+#: includes/class-admin-print.php:148
+msgid "Swaps"
+msgstr ""
+
+#: includes/class-admin-print.php:148
+#: includes/class-admin-screens.php:308
+msgid "Note"
+msgstr ""
+
+#: includes/class-admin-print.php:148
+msgid "Picked up"
+msgstr ""
+
+#: includes/class-admin-print.php:154
+msgid "Not coming this week"
+msgstr ""
+
+#. translators: %s: date.
+#: includes/class-admin-print.php:172
+#: includes/class-admin-screens.php:78
+#, php-format
+msgid "Print harvest totals for %s"
+msgstr ""
+
+#. translators: %s: date.
+#: includes/class-admin-print.php:174
+#: includes/class-signup-page.php:169
+msgid "Total"
+msgstr ""
+
+#: includes/class-admin-print.php:178
+#: includes/class-admin-screens.php:721
+msgid "Boxes to pack"
+msgstr ""
+
+#. translators: %d: boxes.
+#: includes/class-admin-print.php:180
+#: includes/class-admin-screens.php:723
+#, php-format
+msgid "%d donated"
+msgstr ""
+
+#: includes/class-admin-roster.php:26
+#: includes/class-admin-roster.php:58
+#: includes/class-admin-screens.php:568
+#: includes/class-admin.php:40
+msgid "Members"
+msgstr ""
+
+#: includes/class-admin-roster.php:27
+msgid "Add a member"
+msgstr ""
+
+#: includes/class-admin-roster.php:28
+msgid "Import CSV"
+msgstr ""
+
+#: includes/class-admin-roster.php:29
+msgid "Waitlist"
+msgstr ""
+
+#: includes/class-admin-roster.php:77
+msgid "Member added. Their order is on hold until you mark it paid."
+msgstr ""
+
+#: includes/class-admin-roster.php:78
+msgid "Marked paid."
+msgstr ""
+
+#: includes/class-admin-roster.php:79
+#: includes/class-admin-screens.php:750
+msgid "Saved."
+msgstr ""
+
+#: includes/class-admin-roster.php:80
+msgid "Offer sent."
+msgstr ""
+
+#: includes/class-admin-roster.php:81
+msgid "No place fits this person right now."
+msgstr ""
+
+#: includes/class-admin-roster.php:82
+msgid "Taken off the list."
+msgstr ""
+
+#: includes/class-admin-roster.php:83
+msgid "Welcome emails sent."
+msgstr ""
+
+#. translators: 1: added, 2: changed.
+#: includes/class-admin-roster.php:93
+#, php-format
+msgid "Import done: %1$d added, %2$d changed. Nobody has been emailed yet."
+msgstr ""
+
+#: includes/class-admin-roster.php:139
+msgid "For members who pay by cash, check or another way. This makes a real order on hold, so all your money stays in one place. Mark it paid when the money arrives."
+msgstr ""
+
+#: includes/class-admin-roster.php:143
+msgid "First name"
+msgstr ""
+
+#: includes/class-admin-roster.php:144
+msgid "Last name"
+msgstr ""
+
+#: includes/class-admin-roster.php:145
+#: includes/class-admin-roster.php:183
+#: includes/class-member-page.php:386
+#: includes/class-waitlist.php:67
+msgid "Email"
+msgstr ""
+
+#: includes/class-admin-roster.php:146
+#: includes/class-waitlist.php:68
+msgid "Phone (optional)"
+msgstr ""
+
+#: includes/class-admin-roster.php:152
+#: includes/class-admin-roster.php:212
+#: includes/class-admin-roster.php:259
+#: includes/class-admin-screens.php:343
+#: includes/class-admin-setup.php:42
+#: includes/class-cart.php:247
+msgid "Pickup"
+msgstr ""
+
+#: includes/class-admin-roster.php:153
+#: includes/class-admin-roster.php:260
+#: includes/class-admin-screens.php:654
+#: includes/class-signup-page.php:176
+msgid "How often?"
+msgstr ""
+
+#: includes/class-admin-roster.php:153
+#: includes/class-admin-roster.php:260
+#: includes/class-admin-screens.php:595
+#: includes/class-admin-screens.php:654
+#: includes/class-admin-setup.php:351
+#: includes/class-cart.php:250
+#: includes/class-signup-page.php:350
+#: includes/class-signup-page.php:448
+msgid "Every week"
+msgstr ""
+
+#. translators: 1: boxes, 2: date.
+#: includes/class-admin-roster.php:153
+#: includes/class-admin-roster.php:260
+#: includes/class-admin-screens.php:595
+#: includes/class-admin-screens.php:654
+#: includes/class-admin-setup.php:351
+#: includes/class-cart.php:250
+#: includes/class-signup-page.php:356
+#: includes/class-signup-page.php:448
+msgid "Every other week"
+msgstr ""
+
+#: includes/class-admin-roster.php:154
+msgid "How will they pay?"
+msgstr ""
+
+#: includes/class-admin-roster.php:159
+msgid "Street address, for home delivery"
+msgstr ""
+
+#: includes/class-admin-roster.php:160
+msgid "ZIP code, for home delivery"
+msgstr ""
+
+#: includes/class-admin-roster.php:162
+msgid "Add member"
+msgstr ""
+
+#. translators: %d: members.
+#: includes/class-admin-roster.php:177
+#, php-format
+msgid "%d imported member hasn't had a welcome email yet."
+msgid_plural "%d imported members haven't had a welcome email yet."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: members.
+#: includes/class-admin-roster.php:177
+msgid "Send welcome emails"
+msgstr ""
+
+#. translators: 1: good rows, 2: bad rows.
+#: includes/class-admin-roster.php:181
+#, php-format
+msgid "%1$d rows ready, %2$d with a problem"
+msgstr ""
+
+#: includes/class-admin-roster.php:183
+msgid "Row"
+msgstr ""
+
+#: includes/class-admin-roster.php:183
+msgid "Problem"
+msgstr ""
+
+#: includes/class-admin-roster.php:187
+msgid "Rows with a problem are skipped. Fix them in your file and import it again: rows already imported won't be added twice."
+msgstr ""
+
+#. translators: %d: rows.
+#: includes/class-admin-roster.php:189
+#, php-format
+msgid "Import %d members"
+msgstr ""
+
+#. translators: %d: rows.
+#: includes/class-admin-roster.php:189
+msgid "Start again"
+msgstr ""
+
+#: includes/class-admin-roster.php:192
+msgid "Bring last year's members, or a list from another system. Use one row per member and these columns:"
+msgstr ""
+
+#: includes/class-admin-roster.php:193
+msgid "Share, size and pickup must match the names in this season. For every other week, write \"every other week\" in the schedule column. Importing creates no orders and sends no email: members show as paid elsewhere."
+msgstr ""
+
+#: includes/class-admin-roster.php:196
+msgid "Check the file"
+msgstr ""
+
+#. translators: %d: hours.
+#: includes/class-admin-roster.php:207
+#, php-format
+msgid "When a place frees up, the first person who fits gets an email and %d hours to sign up. You can change this in Settings."
+msgstr ""
+
+#. translators: %d: hours.
+#: includes/class-admin-roster.php:207
+msgid "Automatic offers are off."
+msgstr ""
+
+#: includes/class-admin-roster.php:209
+msgid "Nobody is waiting."
+msgstr ""
+
+#: includes/class-admin-roster.php:212
+#: includes/class-admin-screens.php:590
+#: includes/class-admin-screens.php:762
+#: includes/class-admin-setup.php:157
+msgid "Share"
+msgstr ""
+
+#: includes/class-admin-roster.php:212
+msgid "Since"
+msgstr ""
+
+#: includes/class-admin-roster.php:212
+msgid "Status"
+msgstr ""
+
+#. translators: %s: date and time.
+#: includes/class-admin-roster.php:221
+#, php-format
+msgid "Offer open until %s"
+msgstr ""
+
+#: includes/class-admin-roster.php:222
+msgid "Waiting"
+msgstr ""
+
+#: includes/class-admin-roster.php:225
+msgid "Offer a place"
+msgstr ""
+
+#: includes/class-admin-roster.php:227
+msgid "Remove"
+msgstr ""
+
+#: includes/class-admin-roster.php:250
+msgid "Mark paid"
+msgstr ""
+
+#. translators: 1: agreement version, 2: date and time.
+#: includes/class-admin-roster.php:254
+#, php-format
+msgid "Agreed to member agreement version %1$d on %2$s"
+msgstr ""
+
+#: includes/class-admin-roster.php:256
+msgid "Change site or schedule"
+msgstr ""
+
+#: includes/class-admin-roster.php:261
+msgid "Group, for every other week"
+msgstr ""
+
+#: includes/class-admin-roster.php:262
+msgid "This changes boxes from now on. It doesn't change what they paid: adjust the order in WooCommerce if it should."
+msgstr ""
+
+#: includes/class-admin-roster.php:263
+#: includes/class-admin-screens.php:771
+#: includes/class-admin-screens.php:782
+msgid "Save"
+msgstr ""
+
+#. translators: %s: farm.
+#: includes/class-admin-screens.php:36
+#, php-format
+msgid "Today at %s"
+msgstr ""
+
+#: includes/class-admin-screens.php:38
+msgid "No season yet. Plan your first one and start taking sign-ups."
+msgstr ""
+
+#: includes/class-admin-screens.php:39
+#: includes/class-admin-screens.php:95
+msgid "Plan a season"
+msgstr ""
+
+#: includes/class-admin-screens.php:40
+#: includes/class-admin-screens.php:795
+#: includes/class-admin-setup.php:72
+msgid "Look around with a sample farm first"
+msgstr ""
+
+#. translators: 1: filled, 2: capacity.
+#: includes/class-admin-screens.php:62
+#, php-format
+msgid "%1$d of %2$d places filled"
+msgstr ""
+
+#. translators: 1: filled, 2: capacity.
+#: includes/class-admin-screens.php:62
+msgid "members"
+msgstr ""
+
+#. translators: %s: date.
+#: includes/class-admin-screens.php:63
+#, php-format
+msgid "Next pickup: %s"
+msgstr ""
+
+#. translators: %s: date.
+#: includes/class-admin-screens.php:63
+msgid "No pickups left"
+msgstr ""
+
+#. translators: %d: checks.
+#: includes/class-admin-screens.php:64
+#, php-format
+msgid "Money waiting: %d checks"
+msgstr ""
+
+#. translators: %d: overdue.
+#: includes/class-admin-screens.php:65
+#, php-format
+msgid "Overdue: %d"
+msgstr ""
+
+#. translators: %s: date.
+#: includes/class-admin-screens.php:75
+#, php-format
+msgid "Publish the box for %s"
+msgstr ""
+
+#. translators: %s: date.
+#: includes/class-admin-screens.php:79
+msgid "Print pickup sheets"
+msgstr ""
+
+#. translators: 1: site, 2: boxes.
+#: includes/class-admin-screens.php:82
+#, php-format
+msgid "%1$s is %2$d over capacity"
+msgstr ""
+
+#: includes/class-admin-screens.php:95
+#: includes/class-admin.php:38
+msgid "Seasons"
+msgstr ""
+
+#: includes/class-admin-screens.php:96
+#: includes/class-admin-setup.php:42
+msgid "Season"
+msgstr ""
+
+#: includes/class-admin-screens.php:96
+#: includes/class-admin-screens.php:190
+#: includes/class-admin-setup.php:193
+msgid "First pickup week"
+msgstr ""
+
+#: includes/class-admin-screens.php:96
+msgid "Weeks"
+msgstr ""
+
+#: includes/class-admin-screens.php:96
+msgid "State"
+msgstr ""
+
+#: includes/class-admin-screens.php:98
+msgid "Draft"
+msgstr ""
+
+#: includes/class-admin-screens.php:99
+msgid "Open soon"
+msgstr ""
+
+#: includes/class-admin-screens.php:100
+msgid "Open"
+msgstr ""
+
+#: includes/class-admin-screens.php:101
+msgid "Running"
+msgstr ""
+
+#: includes/class-admin-screens.php:102
+msgid "Finished"
+msgstr ""
+
+#: includes/class-admin-screens.php:107
+msgid "Copy season"
+msgstr ""
+
+#: includes/class-admin-screens.php:186
+#: includes/class-admin-setup.php:27
+msgid "Plan your season"
+msgstr ""
+
+#: includes/class-admin-screens.php:189
+#: includes/class-admin-setup.php:184
+msgid "Season name"
+msgstr ""
+
+#: includes/class-admin-screens.php:191
+#: includes/class-admin-setup.php:194
+msgid "How many weeks?"
+msgstr ""
+
+#: includes/class-admin-screens.php:192
+#: includes/class-admin-setup.php:195
+msgid "Sign-ups open"
+msgstr ""
+
+#: includes/class-admin-screens.php:193
+#: includes/class-admin-setup.php:196
+msgid "Sign-ups close"
+msgstr ""
+
+#: includes/class-admin-screens.php:194
+msgid "Cut-off: days before pickup"
+msgstr ""
+
+#: includes/class-admin-screens.php:195
+msgid "Cut-off: time"
+msgstr ""
+
+#: includes/class-admin-screens.php:197
+msgid "When a member skips"
+msgstr ""
+
+#: includes/class-admin-screens.php:201
+msgid "They miss the box"
+msgstr ""
+
+#: includes/class-admin-screens.php:202
+msgid "The box is donated"
+msgstr ""
+
+#: includes/class-admin-screens.php:203
+msgid "They get a make-up box"
+msgstr ""
+
+#: includes/class-admin-screens.php:206
+msgid "Donation partner"
+msgstr ""
+
+#: includes/class-admin-screens.php:207
+msgid "Most skips a season"
+msgstr ""
+
+#: includes/class-admin-screens.php:208
+msgid "Make-up weeks"
+msgstr ""
+
+#: includes/class-admin-screens.php:209
+msgid "Swaps per box"
+msgstr ""
+
+#: includes/class-admin-screens.php:211
+msgid "Pickup changes"
+msgstr ""
+
+#: includes/class-admin-screens.php:215
+msgid "Never"
+msgstr ""
+
+#: includes/class-admin-screens.php:216
+msgid "One week"
+msgstr ""
+
+#: includes/class-admin-screens.php:217
+msgid "One week and permanent"
+msgstr ""
+
+#: includes/class-admin-screens.php:220
+msgid "Sign-ups are live"
+msgstr ""
+
+#: includes/class-admin-screens.php:221
+msgid "Members can swap"
+msgstr ""
+
+#: includes/class-admin-screens.php:222
+msgid "Late joiners welcome"
+msgstr ""
+
+#: includes/class-admin-screens.php:223
+msgid "Late joiners pay only for boxes left"
+msgstr ""
+
+#: includes/class-admin-screens.php:226
+#: includes/class-admin-setup.php:30
+msgid "How will members pay?"
+msgstr ""
+
+#: includes/class-admin-screens.php:228
+#: includes/class-admin-setup.php:328
+msgid "Let members pay in parts?"
+msgstr ""
+
+#: includes/class-admin-screens.php:232
+#: includes/class-signup-page.php:469
+msgid "Pay in full"
+msgstr ""
+
+#: includes/class-admin-screens.php:233
+#: includes/class-signup-page.php:470
+msgid "Pay in parts"
+msgstr ""
+
+#: includes/class-admin-screens.php:237
+#: includes/class-admin-setup.php:331
+msgid "Deposit is"
+msgstr ""
+
+#: includes/class-admin-screens.php:241
+msgid "An amount"
+msgstr ""
+
+#: includes/class-admin-screens.php:242
+msgid "A percent"
+msgstr ""
+
+#: includes/class-admin-screens.php:245
+#: includes/class-admin-setup.php:330
+msgid "Deposit"
+msgstr ""
+
+#. translators: %d: payment number.
+#: includes/class-admin-screens.php:248
+#: includes/class-admin-setup.php:334
+#, php-format
+msgid "Payment %d date"
+msgstr ""
+
+#: includes/class-admin-screens.php:253
+msgid "Close a week"
+msgstr ""
+
+#: includes/class-admin-screens.php:262
+#: includes/class-admin-setup.php:28
+msgid "What are you offering?"
+msgstr ""
+
+#: includes/class-admin-screens.php:275
+msgid "Share name"
+msgstr ""
+
+#: includes/class-admin-screens.php:277
+msgid "Kind"
+msgstr ""
+
+#: includes/class-admin-screens.php:281
+msgid "Main"
+msgstr ""
+
+#: includes/class-admin-screens.php:282
+msgid "Add-on"
+msgstr ""
+
+#: includes/class-admin-screens.php:286
+#: includes/class-admin-setup.php:213
+msgid "Price is"
+msgstr ""
+
+#: includes/class-admin-screens.php:290
+msgid "Per season"
+msgstr ""
+
+#: includes/class-admin-screens.php:291
+msgid "Per box"
+msgstr ""
+
+#: includes/class-admin-screens.php:294
+msgid "Capacity (optional)"
+msgstr ""
+
+#: includes/class-admin-screens.php:295
+msgid "Description"
+msgstr ""
+
+#: includes/class-admin-screens.php:307
+#: includes/class-admin-screens.php:590
+#: includes/class-admin-setup.php:214
+msgid "Size"
+msgstr ""
+
+#: includes/class-admin-screens.php:309
+#: includes/class-admin-setup.php:214
+msgid "Weekly price"
+msgstr ""
+
+#: includes/class-admin-screens.php:310
+#: includes/class-admin-setup.php:214
+msgid "Every-other-week price"
+msgstr ""
+
+#: includes/class-admin-screens.php:315
+#: includes/class-admin-setup.php:29
+msgid "Where do members collect?"
+msgstr ""
+
+#: includes/class-admin-screens.php:337
+#: includes/class-admin-setup.php:291
+msgid "Place name"
+msgstr ""
+
+#: includes/class-admin-screens.php:339
+msgid "Type"
+msgstr ""
+
+#: includes/class-admin-screens.php:344
+#: includes/class-admin-setup.php:249
+#: includes/class-admin-setup.php:503
+#: includes/class-sample.php:101
+#: includes/class-signup-page.php:391
+msgid "Home delivery"
+msgstr ""
+
+#: includes/class-admin-screens.php:347
+#: includes/class-admin-setup.php:292
+msgid "Address"
+msgstr ""
+
+#: includes/class-admin-screens.php:348
+#: includes/class-admin-setup.php:276
+msgid "Day"
+msgstr ""
+
+#: includes/class-admin-screens.php:349
+#: includes/class-admin-setup.php:253
+#: includes/class-admin-setup.php:294
+#: includes/class-member-page.php:292
+msgid "From"
+msgstr ""
+
+#: includes/class-admin-screens.php:350
+#: includes/class-admin-setup.php:254
+#: includes/class-admin-setup.php:295
+#: includes/class-member-page.php:292
+msgid "To"
+msgstr ""
+
+#: includes/class-admin-screens.php:351
+#: includes/class-admin-setup.php:255
+#: includes/class-admin-setup.php:297
+msgid "How many boxes fit here?"
+msgstr ""
+
+#: includes/class-admin-screens.php:352
+msgid "Note for members"
+msgstr ""
+
+#: includes/class-admin-screens.php:353
+msgid "ZIP prefixes, for delivery"
+msgstr ""
+
+#: includes/class-admin-screens.php:354
+msgid "Fee per box"
+msgstr ""
+
+#: includes/class-admin-screens.php:358
+msgid "Member agreement (optional)"
+msgstr ""
+
+#: includes/class-admin-screens.php:359
+msgid "This is a starting point written by the BoxDay team, not legal advice. Change it to fit your farm, and have someone qualified check it."
+msgstr ""
+
+#: includes/class-admin-screens.php:360
+msgid "Replace your text with our starter text?"
+msgstr ""
+
+#: includes/class-admin-screens.php:360
+msgid "Use our starter text"
+msgstr ""
+
+#: includes/class-admin-screens.php:362
+msgid "If you add an agreement, members must tick it to sign up. We save which version they agreed to, and when."
+msgstr ""
+
+#: includes/class-admin-screens.php:363
+msgid "Save season"
+msgstr ""
+
+#. translators: %s: word for a share.
+#: includes/class-admin-screens.php:381
+#, php-format
+msgid "Our %s agreement"
+msgstr ""
+
+#. translators: %s: farm.
+#: includes/class-admin-screens.php:383
+msgid "We share the season."
+msgstr ""
+
+#. translators: %s: farm.
+#: includes/class-admin-screens.php:383
+#, php-format
+msgid "When you join %s, you share both the good and the hard parts of farming with us. Weather, pests and crop failures can change what's in your box and how much you get."
+msgstr ""
+
+#. translators: 1: season, 2: first date, 3: last date.
+#: includes/class-admin-screens.php:385
+msgid "What you pay for."
+msgstr ""
+
+#. translators: 1: season, 2: first date, 3: last date.
+#: includes/class-admin-screens.php:385
+#, php-format
+msgid "Your payment covers %1$s, from %2$s to %3$s. Boxes vary from week to week."
+msgstr ""
+
+#: includes/class-admin-screens.php:386
+msgid "Pickup."
+msgstr ""
+
+#: includes/class-admin-screens.php:386
+msgid "You're responsible for collecting your box at your site in the pickup window. Boxes left behind can't be replaced."
+msgstr ""
+
+#: includes/class-admin-screens.php:387
+msgid "Refunds."
+msgstr ""
+
+#: includes/class-admin-screens.php:387
+msgid "Refunds are at the farm's discretion. Please talk to us if something goes wrong."
+msgstr ""
+
+#. translators: 1: farm email, 2: farm phone.
+#: includes/class-admin-screens.php:389
+msgid "Questions."
+msgstr ""
+
+#. translators: 1: farm email, 2: farm phone.
+#: includes/class-admin-screens.php:389
+#, php-format
+msgid "Contact us at %1$s or %2$s."
+msgstr ""
+
+#: includes/class-admin-screens.php:445
+#: includes/class-admin-screens.php:529
+#: includes/class-admin-screens.php:536
+#: includes/class-admin-screens.php:551
+msgid "Add an item"
+msgstr ""
+
+#: includes/class-admin-screens.php:446
+#: includes/class-admin-screens.php:529
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-admin-screens.php:449
+#: includes/class-admin-screens.php:544
+msgid "How many are available? Leave blank for no limit."
+msgstr ""
+
+#: includes/class-admin-screens.php:451
+#: includes/class-admin-screens.php:529
+msgid "Grown at (optional)"
+msgstr ""
+
+#: includes/class-admin-screens.php:452
+#: includes/class-admin-screens.php:529
+msgid "Can be swapped"
+msgstr ""
+
+#: includes/class-admin-screens.php:465
+#: includes/class-admin-screens.php:482
+msgid "Plan this week's box"
+msgstr ""
+
+#: includes/class-admin-screens.php:465
+#: includes/class-admin-screens.php:522
+msgid "Nothing planned yet. Start from last week, or add your first item."
+msgstr ""
+
+#. translators: 1: week number, 2: first date, 3: last date.
+#: includes/class-admin-screens.php:482
+#, php-format
+msgid "Week %1$d, pickups %2$s to %3$s"
+msgstr ""
+
+#: includes/class-admin-screens.php:486
+msgid "Published. This week's email is on its way."
+msgstr ""
+
+#. translators: %d: members.
+#: includes/class-admin-screens.php:491
+#, php-format
+msgid "%d members swapped this. Remove anyway?"
+msgstr ""
+
+#. translators: %d: members.
+#: includes/class-admin-screens.php:496
+#, php-format
+msgid "Publish this box? %d members will get this week's email."
+msgstr ""
+
+#. translators: %s: site.
+#: includes/class-admin-screens.php:500
+#, php-format
+msgid "%s's cut-off has passed, so its members won't see swap or skip links."
+msgstr ""
+
+#: includes/class-admin-screens.php:503
+msgid "Publish"
+msgstr ""
+
+#: includes/class-admin-screens.php:515
+msgid "Remove anyway"
+msgstr ""
+
+#: includes/class-admin-screens.php:517
+msgid "Copy last week"
+msgstr ""
+
+#: includes/class-admin-screens.php:517
+msgid "Save draft"
+msgstr ""
+
+#: includes/class-admin-screens.php:517
+msgid "Preview and publish"
+msgstr ""
+
+#: includes/class-admin-screens.php:538
+msgid "Copy to other sizes"
+msgstr ""
+
+#: includes/class-admin-screens.php:544
+msgid "Swap list"
+msgstr ""
+
+#: includes/class-admin-screens.php:544
+msgid "Extra items members can choose instead."
+msgstr ""
+
+#: includes/class-admin-screens.php:553
+msgid "Message to members (optional)"
+msgstr ""
+
+#: includes/class-admin-screens.php:573
+msgid "Export CSV"
+msgstr ""
+
+#: includes/class-admin-screens.php:577
+#: includes/class-member-page.php:433
+msgid "Find a name"
+msgstr ""
+
+#: includes/class-admin-screens.php:577
+msgid "All payments"
+msgstr ""
+
+#: includes/class-admin-screens.php:579
+#: includes/class-admin-screens.php:647
+#: includes/class-member-page.php:369
+msgid "Paid"
+msgstr ""
+
+#: includes/class-admin-screens.php:580
+#: includes/class-admin-screens.php:648
+msgid "Paying in parts"
+msgstr ""
+
+#: includes/class-admin-screens.php:581
+#: includes/class-admin-screens.php:649
+msgid "Check waiting"
+msgstr ""
+
+#: includes/class-admin-screens.php:582
+#: includes/class-admin-screens.php:650
+#: includes/class-member-page.php:369
+msgid "Overdue"
+msgstr ""
+
+#: includes/class-admin-screens.php:583
+#: includes/class-admin-screens.php:651
+msgid "Paid elsewhere"
+msgstr ""
+
+#: includes/class-admin-screens.php:588
+msgid "Filter"
+msgstr ""
+
+#: includes/class-admin-screens.php:590
+msgid "Site"
+msgstr ""
+
+#: includes/class-admin-screens.php:590
+#: includes/class-cart.php:250
+msgid "Schedule"
+msgstr ""
+
+#: includes/class-admin-screens.php:590
+msgid "Group"
+msgstr ""
+
+#: includes/class-admin-screens.php:590
+#: includes/class-admin-screens.php:655
+#: includes/class-member-page.php:376
+msgid "Payments"
+msgstr ""
+
+#: includes/class-admin-screens.php:595
+msgid "over capacity"
+msgstr ""
+
+#: includes/class-admin-screens.php:630
+msgid "All members"
+msgstr ""
+
+#: includes/class-admin-screens.php:633
+#: includes/class-rest.php:206
+#: includes/class-rest.php:216
+msgid "If that email belongs to a member, a new link is on its way."
+msgstr ""
+
+#: includes/class-admin-screens.php:638
+msgid "Notes"
+msgstr ""
+
+#: includes/class-admin-screens.php:640
+msgid "Send link"
+msgstr ""
+
+#: includes/class-admin-screens.php:655
+msgid "Cancelled"
+msgstr ""
+
+#: includes/class-admin-screens.php:656
+#: includes/class-signup-page.php:458
+msgid "Season price"
+msgstr ""
+
+#: includes/class-admin-screens.php:657
+#: includes/class-cart.php:249
+msgid "Boxes"
+msgstr ""
+
+#: includes/class-admin-screens.php:676
+msgid "Cancel sign-up"
+msgstr ""
+
+#. translators: %s: order number.
+#: includes/class-admin-screens.php:681
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: includes/class-admin-screens.php:699
+#: includes/class-admin.php:41
+msgid "Sheets"
+msgstr ""
+
+#. translators: %s: date and time.
+#: includes/class-admin-screens.php:714
+#, php-format
+msgid "Final after %s."
+msgstr ""
+
+#: includes/class-admin-screens.php:716
+msgid "Harvest totals"
+msgstr ""
+
+#: includes/class-admin-screens.php:720
+#: includes/class-admin-screens.php:738
+msgid "Print"
+msgstr ""
+
+#: includes/class-admin-screens.php:726
+msgid "Pickup sheets"
+msgstr ""
+
+#: includes/class-admin-screens.php:738
+msgid "Share with a helper"
+msgstr ""
+
+#: includes/class-admin-screens.php:740
+msgid "Anyone with this link can tick off names for this pickup. It shows names and boxes only."
+msgstr ""
+
+#: includes/class-admin-screens.php:748
+#: includes/class-admin.php:42
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin-screens.php:754
+#: includes/class-admin-setup.php:152
+msgid "Farm name"
+msgstr ""
+
+#: includes/class-admin-screens.php:755
+#: includes/class-admin-setup.php:153
+msgid "Farm email"
+msgstr ""
+
+#: includes/class-admin-screens.php:756
+#: includes/class-admin-setup.php:154
+msgid "Farm phone"
+msgstr ""
+
+#: includes/class-admin-screens.php:758
+#: includes/class-admin-setup.php:155
+msgid "What do you call what members get?"
+msgstr ""
+
+#: includes/class-admin-screens.php:764
+#: includes/class-admin-setup.php:159
+msgid "Basket"
+msgstr ""
+
+#: includes/class-admin-screens.php:767
+#: includes/class-admin-setup.php:348
+msgid "Accent color"
+msgstr ""
+
+#: includes/class-admin-screens.php:768
+#: includes/class-admin-setup.php:349
+msgid "Corners"
+msgstr ""
+
+#: includes/class-admin-screens.php:769
+#: includes/class-admin-setup.php:350
+msgid "Capital letters on buttons"
+msgstr ""
+
+#: includes/class-admin-screens.php:774
+msgid "Waitlist, posts and your data"
+msgstr ""
+
+#: includes/class-admin-screens.php:777
+msgid "Offer freed places to the waitlist by themselves"
+msgstr ""
+
+#: includes/class-admin-screens.php:778
+msgid "Hours an offer holds a place"
+msgstr ""
+
+#: includes/class-admin-screens.php:779
+msgid "Also publish a blog post for each box"
+msgstr ""
+
+#: includes/class-admin-screens.php:780
+msgid "Delete all BoxDay data on uninstall"
+msgstr ""
+
+#: includes/class-admin-screens.php:781
+msgid "Orders always stay in WooCommerce, even if you delete BoxDay's data."
+msgstr ""
+
+#: includes/class-admin-screens.php:785
+msgid "Self-test"
+msgstr ""
+
+#. translators: %s: email address.
+#: includes/class-admin-screens.php:788
+#, php-format
+msgid "Test email sent to %s."
+msgstr ""
+
+#: includes/class-admin-screens.php:791
+msgid "Run setup again"
+msgstr ""
+
+#: includes/class-admin-screens.php:793
+msgid "Remove the sample farm"
+msgstr ""
+
+#: includes/class-admin-screens.php:805
+msgid "Let members build their box."
+msgstr ""
+
+#: includes/class-admin-screens.php:805
+msgid "Happier members stay for next year."
+msgstr ""
+
+#: includes/class-admin-screens.php:806
+msgid "Sell extras with the box."
+msgstr ""
+
+#: includes/class-admin-screens.php:806
+msgid "Eggs, bread and honey, added to their next pickup."
+msgstr ""
+
+#: includes/class-admin-screens.php:807
+msgid "Fill next season early."
+msgstr ""
+
+#: includes/class-admin-screens.php:807
+msgid "Renewal links and early-bird prices."
+msgstr ""
+
+#: includes/class-admin-screens.php:808
+msgid "Print labels and route sheets."
+msgstr ""
+
+#: includes/class-admin-screens.php:808
+msgid "Less time packing and driving."
+msgstr ""
+
+#: includes/class-admin-screens.php:809
+msgid "See your money."
+msgstr ""
+
+#: includes/class-admin-screens.php:809
+msgid "What's collected, what's owed, who came back."
+msgstr ""
+
+#: includes/class-admin-screens.php:811
+msgid "Earn more from every member, and save your Mondays"
+msgstr ""
+
+#: includes/class-admin-screens.php:811
+msgid "BoxDay runs your whole season for free. Pro helps you sell more and pack faster."
+msgstr ""
+
+#: includes/class-admin-screens.php:815
+msgid "USD 79 or EUR 75 a year, for one farm site. Unlimited members. No share of your sales. 14-day money-back promise."
+msgstr ""
+
+#: includes/class-admin-screens.php:815
+msgid "If you stop paying, everything keeps working. You just stop getting updates and support."
+msgstr ""
+
+#: includes/class-admin-screens.php:816
+msgid "Get BoxDay Pro"
+msgstr ""
+
+#: includes/class-admin-setup.php:26
+msgid "Tell us about your farm"
+msgstr ""
+
+#: includes/class-admin-setup.php:31
+msgid "Make it look like yours"
+msgstr ""
+
+#: includes/class-admin-setup.php:32
+msgid "You're ready for sign-ups"
+msgstr ""
+
+#: includes/class-admin-setup.php:42
+msgid "Farm"
+msgstr ""
+
+#: includes/class-admin-setup.php:42
+msgid "Shares"
+msgstr ""
+
+#: includes/class-admin-setup.php:42
+msgid "Payment"
+msgstr ""
+
+#: includes/class-admin-setup.php:42
+msgid "Look"
+msgstr ""
+
+#: includes/class-admin-setup.php:42
+msgid "Ready"
+msgstr ""
+
+#: includes/class-admin-setup.php:69
+msgid "Let's get your farm ready for sign-ups"
+msgstr ""
+
+#: includes/class-admin-setup.php:69
+msgid "Most farms finish in under 10 minutes. You can change everything later."
+msgstr ""
+
+#: includes/class-admin-setup.php:70
+msgid "Start setup"
+msgstr ""
+
+#: includes/class-admin-setup.php:98
+msgid "Back"
+msgstr ""
+
+#: includes/class-admin-setup.php:100
+msgid "Save and continue"
+msgstr ""
+
+#: includes/class-admin-setup.php:166
+msgid "We'll use your site's logo."
+msgstr ""
+
+#. translators: %s: time zone.
+#: includes/class-admin-setup.php:171
+#, php-format
+msgid "Pickups and cut-offs use %s. Is that right?"
+msgstr ""
+
+#. translators: %s: time zone.
+#: includes/class-admin-setup.php:171
+#: includes/class-self-test.php:33
+msgid "Change the time zone"
+msgstr ""
+
+#. translators: %d: year.
+#: includes/class-admin-setup.php:189
+#, php-format
+msgid "Summer %d"
+msgstr ""
+
+#: includes/class-admin-setup.php:197
+msgid "You can close any week later, like a holiday."
+msgstr ""
+
+#. translators: %s: word for a share.
+#: includes/class-admin-setup.php:212
+#, php-format
+msgid "%s name"
+msgstr ""
+
+#. translators: %s: word for a share.
+#: includes/class-admin-setup.php:212
+#: includes/class-sample.php:91
+msgid "Vegetable share"
+msgstr ""
+
+#: includes/class-admin-setup.php:213
+msgid "per season"
+msgstr ""
+
+#: includes/class-admin-setup.php:213
+msgid "per box"
+msgstr ""
+
+#: includes/class-admin-setup.php:215
+#: includes/class-sample.php:92
+msgid "Full"
+msgstr ""
+
+#: includes/class-admin-setup.php:215
+#: includes/class-sample.php:93
+msgid "Small"
+msgstr ""
+
+#: includes/class-admin-setup.php:227
+msgid "Leave a price blank if you don't offer it. Add-ons like eggs, more sizes and sliding-scale prices go in Seasons, after setup."
+msgstr ""
+
+#: includes/class-admin-setup.php:244
+msgid "Add another place"
+msgstr ""
+
+#: includes/class-admin-setup.php:246
+msgid "Add home delivery"
+msgstr ""
+
+#: includes/class-admin-setup.php:250
+msgid "ZIP codes or their first digits, with commas"
+msgstr ""
+
+#: includes/class-admin-setup.php:251
+msgid "Fee a box"
+msgstr ""
+
+#: includes/class-admin-setup.php:291
+msgid "Farm stand"
+msgstr ""
+
+#: includes/class-admin-setup.php:302
+msgid "Optional"
+msgstr ""
+
+#: includes/class-admin-setup.php:314
+msgid "Members pay at your normal checkout."
+msgstr ""
+
+#. translators: %s: payment methods.
+#: includes/class-admin-setup.php:323
+#: includes/class-self-test.php:30
+msgid "Nobody can pay yet. Turn on a payment method"
+msgstr ""
+
+#. translators: %s: payment methods.
+#: includes/class-admin-setup.php:324
+#: includes/class-self-test.php:30
+msgid "Accept checks"
+msgstr ""
+
+#: includes/class-admin-setup.php:324
+msgid "Set up card payments in WooCommerce"
+msgstr ""
+
+#: includes/class-admin-setup.php:329
+msgid "Members pay a deposit, then up to 4 more payments on dates you pick. No fees, and we never store a card."
+msgstr ""
+
+#: includes/class-admin-setup.php:331
+msgid "an amount"
+msgstr ""
+
+#: includes/class-admin-setup.php:331
+msgid "a percent"
+msgstr ""
+
+#: includes/class-admin-setup.php:346
+msgid "We took these from your site. Change anything you like."
+msgstr ""
+
+#: includes/class-admin-setup.php:351
+#: includes/class-signup-page.php:500
+msgid "Continue to checkout"
+msgstr ""
+
+#. translators: %s: link.
+#: includes/class-admin-setup.php:378
+#, php-format
+msgid "Your sign-up page is live: %s"
+msgstr ""
+
+#: includes/class-admin-setup.php:380
+msgid "Go to Today"
+msgstr ""
+
+#: includes/class-admin-setup.php:382
+msgid "Fine-tune the season"
+msgstr ""
+
+#: includes/class-admin-setup.php:427
+msgid "Please give your season a name."
+msgstr ""
+
+#: includes/class-admin-setup.php:460
+msgid "Please name what you're offering."
+msgstr ""
+
+#: includes/class-admin-setup.php:495
+msgid "Please add at least one size with a price."
+msgstr ""
+
+#: includes/class-admin-setup.php:530
+#: includes/class-cart.php:115
+#: includes/class-cart.php:126
+msgid "Please choose where you'll collect your box."
+msgstr ""
+
+#: includes/class-admin-setup.php:614
+msgid "BoxDay test email"
+msgstr ""
+
+#: includes/class-admin-setup.php:614
+msgid "If you can read this, your site can send BoxDay's emails."
+msgstr ""
+
+#: includes/class-admin.php:35
+msgid "BoxDay"
+msgstr ""
+
+#: includes/class-admin.php:37
+msgid "Today"
+msgstr ""
+
+#: includes/class-admin.php:39
+msgid "Box planner"
+msgstr ""
+
+#: includes/class-admin.php:43
+msgid "Pro"
+msgstr ""
+
+#: includes/class-admin.php:48
+msgid "Setup"
+msgstr ""
+
+#. translators: %s: farm.
+#: includes/class-boxes.php:291
+#: includes/class-member-page.php:461
+#, php-format
+msgid "grown at %s"
+msgstr ""
+
+#. translators: %s: date.
+#: includes/class-boxes.php:308
+#, php-format
+msgid "What's in the box, %s"
+msgstr ""
+
+#: includes/class-carrier.php:79
+#: includes/class-carrier.php:93
+msgid "Please sign up on our sign-up page."
+msgstr ""
+
+#: includes/class-cart.php:109
+#: includes/class-members.php:111
+#: includes/class-members.php:142
+#: includes/class-members.php:164
+#: includes/class-members.php:203
+#: includes/class-members.php:215
+#: includes/class-members.php:223
+#: includes/class-members.php:254
+#: includes/class-members.php:276
+#: includes/class-quote.php:26
+#: includes/class-quote.php:34
+#: includes/class-quote.php:43
+#: includes/class-rest.php:86
+#: includes/class-rest.php:91
+msgid "Something changed since you opened this page. We've updated your total."
+msgstr ""
+
+#: includes/class-cart.php:129
+msgid "Please tick the box to agree to the member agreement."
+msgstr ""
+
+#. translators: %s: season name.
+#: includes/class-cart.php:227
+#, php-format
+msgid "Sign-ups for %s have closed, so we've taken this out of your cart."
+msgstr ""
+
+#. translators: %s: pickup site.
+#: includes/class-cart.php:229
+#, php-format
+msgid "%s just filled up. Please go back and pick another place."
+msgstr ""
+
+#: includes/class-cart.php:248
+msgid "First box"
+msgstr ""
+
+#: includes/class-cart.php:254
+msgid "Paid today"
+msgstr ""
+
+#. translators: 1: paid today, 2: total.
+#: includes/class-cart.php:254
+#, php-format
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: includes/class-emails.php:31
+msgid "BoxDay: welcome"
+msgstr ""
+
+#: includes/class-emails.php:31
+msgid "The private link, sent when a sign-up is paid or on hold."
+msgstr ""
+
+#: includes/class-emails.php:32
+msgid "BoxDay: this week's box"
+msgstr ""
+
+#: includes/class-emails.php:32
+msgid "Sent to members when you publish a box."
+msgstr ""
+
+#: includes/class-emails.php:33
+msgid "BoxDay: pickup reminder"
+msgstr ""
+
+#: includes/class-emails.php:33
+msgid "The day before pickup at 8:00 am."
+msgstr ""
+
+#: includes/class-emails.php:34
+msgid "BoxDay: skip confirmation"
+msgstr ""
+
+#: includes/class-emails.php:34
+msgid "Sent when a member skips a box."
+msgstr ""
+
+#: includes/class-emails.php:35
+msgid "BoxDay: waitlist offer"
+msgstr ""
+
+#: includes/class-emails.php:35
+msgid "Sent when a place frees up for the next person on the waitlist."
+msgstr ""
+
+#: includes/class-emails.php:36
+msgid "BoxDay: payment due"
+msgstr ""
+
+#: includes/class-emails.php:36
+msgid "With the pay link: 7 days before, on the date and 3 days after."
+msgstr ""
+
+#. translators: %s: donation partner.
+#: includes/class-emails.php:74
+#, php-format
+msgid "We'll give this box to %s."
+msgstr ""
+
+#: includes/class-emails.php:77
+msgid "You'll get an extra box at the end of the season."
+msgstr ""
+
+#: includes/class-emails.php:79
+msgid "You won't get this box back."
+msgstr ""
+
+#. translators: 1: farm, 2: date, 3: site, 4: time window.
+#: includes/class-emails.php:112
+#, php-format
+msgid "Thanks for joining %1$s. Your first box is %2$s at %3$s, %4$s."
+msgstr ""
+
+#: includes/class-emails.php:130
+#: includes/class-emails.php:143
+msgid "Use your private link to see each box, swap, skip or change your pickup. You don't need a password."
+msgstr ""
+
+#. translators: %s: word for a share.
+#: includes/class-emails.php:132
+#: includes/class-emails.php:145
+#, php-format
+msgid "See my %s"
+msgstr ""
+
+#. translators: 1: farm, 2: word for a share.
+#: includes/class-emails.php:134
+#, php-format
+msgid "You're in! Your %1$s %2$s"
+msgstr ""
+
+#. translators: 1: farm, 2: word for a share.
+#: includes/class-emails.php:147
+#, php-format
+msgid "Your %1$s %2$s link"
+msgstr ""
+
+#. translators: 1: date, 2: site, 3: time window.
+#: includes/class-emails.php:169
+#, php-format
+msgid "Pickup: %1$s, %2$s, %3$s."
+msgstr ""
+
+#. translators: 1: weekday, 2: time.
+#: includes/class-emails.php:179
+#, php-format
+msgid "Want to change something? You have until %1$s at %2$s."
+msgstr ""
+
+#: includes/class-emails.php:180
+#: includes/class-member-page.php:125
+#: includes/class-member-page.php:231
+msgid "Swap something"
+msgstr ""
+
+#: includes/class-emails.php:180
+#: includes/class-member-page.php:128
+msgid "Skip this box"
+msgstr ""
+
+#: includes/class-emails.php:182
+msgid "What's in your box this week"
+msgstr ""
+
+#. translators: 1: weekday, 2: site, 3: time window.
+#: includes/class-emails.php:196
+#, php-format
+msgid "See you %1$s at %2$s, %3$s."
+msgstr ""
+
+#. translators: %s: weekday.
+#: includes/class-emails.php:201
+#, php-format
+msgid "Your box is ready %s"
+msgstr ""
+
+#. translators: 1: date, 2: rule sentence, 3: weekday, 4: time.
+#: includes/class-emails.php:220
+#, php-format
+msgid "No box for you on %1$s. %2$s Changed your mind? You can undo this until %3$s at %4$s."
+msgstr ""
+
+#: includes/class-emails.php:226
+#: includes/class-member-page.php:137
+msgid "Undo"
+msgstr ""
+
+#. translators: %s: date.
+#: includes/class-emails.php:228
+#, php-format
+msgid "You're skipping %s"
+msgstr ""
+
+#. translators: %s: farm.
+#: includes/class-emails.php:245
+#, php-format
+msgid "Your %s payment is due today"
+msgstr ""
+
+#. translators: %s: farm.
+#: includes/class-emails.php:248
+#, php-format
+msgid "Your %s payment is overdue"
+msgstr ""
+
+#. translators: 1: farm, 2: amount, 3: date.
+#: includes/class-emails.php:251
+#, php-format
+msgid "Your %1$s payment of %2$s is due %3$s"
+msgstr ""
+
+#. translators: 1: payment number, 2: payments, 3: word for a share.
+#: includes/class-emails.php:254
+#, php-format
+msgid "This is payment %1$d of %2$d for your %3$s. No fees, no interest."
+msgstr ""
+
+#. translators: %s: amount.
+#: includes/class-emails.php:256
+#: includes/class-member-page.php:373
+#, php-format
+msgid "Pay %s"
+msgstr ""
+
+#. translators: %s: farm.
+#: includes/class-emails.php:259
+#, php-format
+msgid "Can't pay right now? Reply to this email and %s will work it out with you."
+msgstr ""
+
+#. translators: 1: word for a share, 2: date and time.
+#: includes/class-emails.php:274
+#, php-format
+msgid "Good news: there's a %1$s for you. We're holding it until %2$s."
+msgstr ""
+
+#: includes/class-emails.php:275
+msgid "Sign up now"
+msgstr ""
+
+#: includes/class-emails.php:276
+msgid "Changed your mind?"
+msgstr ""
+
+#: includes/class-emails.php:276
+msgid "Take me off the list"
+msgstr ""
+
+#. translators: %s: farm.
+#: includes/class-emails.php:278
+#, php-format
+msgid "A place opened up at %s"
+msgstr ""
+
+#. translators: PHP date format for a day and month, such as June 1.
+#: includes/class-format.php:39
+msgctxt "date format"
+msgid "F j"
+msgstr ""
+
+#. translators: PHP date format for a weekday, day and month, such as Tuesday, June 1.
+#: includes/class-format.php:41
+msgctxt "date format"
+msgid "l, F j"
+msgstr ""
+
+#. translators: PHP date format for a short day and month, such as Jun 1.
+#: includes/class-format.php:43
+msgctxt "date format"
+msgid "M j"
+msgstr ""
+
+#. translators: PHP date format for a full date, such as June 1, 2027.
+#: includes/class-format.php:45
+msgctxt "date format"
+msgid "F j, Y"
+msgstr ""
+
+#: includes/class-format.php:68
+msgid "noon"
+msgstr ""
+
+#. translators: PHP time format, such as 4:00 pm. Use H:i for a 24-hour clock.
+#: includes/class-format.php:71
+msgctxt "time format"
+msgid "g:i a"
+msgstr ""
+
+#. translators: 1: start time, 2: end time.
+#: includes/class-format.php:87
+#, php-format
+msgid "%1$s to %2$s"
+msgstr ""
+
+#: includes/class-format.php:107
+msgctxt "what members get, in a sentence"
+msgid "share"
+msgstr ""
+
+#: includes/class-format.php:108
+msgctxt "what members get, in a sentence"
+msgid "box"
+msgstr ""
+
+#: includes/class-format.php:109
+msgctxt "what members get, in a sentence"
+msgid "basket"
+msgstr ""
+
+#: includes/class-format.php:121
+msgctxt "what members get, as a label"
+msgid "Share"
+msgstr ""
+
+#: includes/class-format.php:122
+msgctxt "what members get, as a label"
+msgid "Box"
+msgstr ""
+
+#: includes/class-format.php:123
+msgctxt "what members get, as a label"
+msgid "Basket"
+msgstr ""
+
+#: includes/class-format.php:146
+msgid "Mondays"
+msgstr ""
+
+#: includes/class-format.php:147
+msgid "Tuesdays"
+msgstr ""
+
+#: includes/class-format.php:148
+msgid "Wednesdays"
+msgstr ""
+
+#: includes/class-format.php:149
+msgid "Thursdays"
+msgstr ""
+
+#: includes/class-format.php:150
+msgid "Fridays"
+msgstr ""
+
+#: includes/class-format.php:151
+msgid "Saturdays"
+msgstr ""
+
+#: includes/class-format.php:152
+msgid "Sundays"
+msgstr ""
+
+#. translators: 1: season, 2: share, 3: payment number, 4: payments.
+#: includes/class-jobs.php:125
+#, php-format
+msgid "%1$s: %2$s, payment %3$d of %4$d"
+msgstr ""
+
+#. translators: %s: first name.
+#: includes/class-member-page.php:63
+#, php-format
+msgid "Hi %s"
+msgstr ""
+
+#. translators: %s: farm email.
+#: includes/class-member-page.php:68
+#: includes/class-pages.php:195
+#, php-format
+msgid "Questions? %s"
+msgstr ""
+
+#. translators: %s: farm email.
+#: includes/class-member-page.php:69
+msgid "Get a new link"
+msgstr ""
+
+#: includes/class-member-page.php:70
+msgid "Use this if someone else has your link. The old one stops working."
+msgstr ""
+
+#: includes/class-member-page.php:97
+msgid "Your next box"
+msgstr ""
+
+#: includes/class-member-page.php:101
+#: includes/class-totals.php:188
+msgid "Donated"
+msgstr ""
+
+#: includes/class-member-page.php:101
+#: includes/class-totals.php:185
+msgid "Skipped"
+msgstr ""
+
+#: includes/class-member-page.php:109
+#: includes/class-pages.php:74
+msgid "We'll post what's in your box soon."
+msgstr ""
+
+#. translators: 1: weekday, 2: time.
+#: includes/class-member-page.php:113
+#, php-format
+msgid "Change anything until %1$s at %2$s."
+msgstr ""
+
+#. translators: %s: weekday.
+#: includes/class-member-page.php:116
+#, php-format
+msgid "This box is locked in. See you %s!"
+msgstr ""
+
+#: includes/class-member-page.php:131
+#: includes/class-member-page.php:281
+msgid "Change pickup"
+msgstr ""
+
+#: includes/class-member-page.php:134
+msgid "I'll be away"
+msgstr ""
+
+#: includes/class-member-page.php:139
+msgid "See my season"
+msgstr ""
+
+#. translators: 1: item, 2: item.
+#: includes/class-member-page.php:202
+#, php-format
+msgid "Undo: %1$s for %2$s"
+msgstr ""
+
+#. translators: %s: item.
+#: includes/class-member-page.php:222
+#, php-format
+msgid "Swap %s for..."
+msgstr ""
+
+#: includes/class-member-page.php:223
+msgid "Confirm swap"
+msgstr ""
+
+#. translators: %d: swaps allowed.
+#: includes/class-member-page.php:228
+#: includes/class-members.php:220
+#, php-format
+msgid "You've used all %d swaps for this box."
+msgstr ""
+
+#: includes/class-member-page.php:230
+#: includes/class-member-page.php:249
+#: includes/class-member-page.php:280
+#: includes/class-member-page.php:294
+msgid "Keep my box"
+msgstr ""
+
+#. translators: %d: skips left.
+#: includes/class-member-page.php:246
+#, php-format
+msgid "You have %d skips left."
+msgstr ""
+
+#: includes/class-member-page.php:248
+msgid "Skip it"
+msgstr ""
+
+#. translators: %s: date.
+#: includes/class-member-page.php:251
+#, php-format
+msgid "Skip your box on %s?"
+msgstr ""
+
+#: includes/class-member-page.php:276
+msgid "Just this week"
+msgstr ""
+
+#: includes/class-member-page.php:278
+msgid "From now on"
+msgstr ""
+
+#: includes/class-member-page.php:293
+msgid "Skip these boxes"
+msgstr ""
+
+#: includes/class-member-page.php:295
+msgid "When are you away?"
+msgstr ""
+
+#. translators: %s: date.
+#: includes/class-member-page.php:369
+#, php-format
+msgid "Due %s"
+msgstr ""
+
+#: includes/class-member-page.php:385
+#: includes/class-rest.php:105
+#: includes/class-rest.php:109
+msgid "This link has expired"
+msgstr ""
+
+#: includes/class-member-page.php:385
+msgid "Enter your email and we'll send you a new one."
+msgstr ""
+
+#: includes/class-member-page.php:387
+msgid "Send my link"
+msgstr ""
+
+#: includes/class-member-page.php:423
+#: includes/class-rest.php:239
+#: includes/class-rest.php:245
+msgid "This pickup is over, so this link has stopped working."
+msgstr ""
+
+#. translators: 1: boxes picked up, 2: boxes in all.
+#: includes/class-member-page.php:431
+#, php-format
+msgid "%1$d of %2$d picked up"
+msgstr ""
+
+#: includes/class-member-page.php:449
+msgid "This week's box will be posted here soon."
+msgstr ""
+
+#. translators: 1: weekday, 2: time.
+#: includes/class-members.php:70
+#, php-format
+msgid "Too late for this box. The cut-off was %1$s at %2$s."
+msgstr ""
+
+#. translators: %d: skips allowed.
+#: includes/class-members.php:123
+#, php-format
+msgid "You've used all %d skips this season."
+msgstr ""
+
+#. translators: 1: boxes, 2: skips left.
+#: includes/class-members.php:181
+#, php-format
+msgid "Those dates cover %1$d boxes, and you have %2$d skips left this season."
+msgstr ""
+
+#. translators: %s: item.
+#: includes/class-members.php:228
+#, php-format
+msgid "%s just ran out. Pick another."
+msgstr ""
+
+#: includes/class-members.php:293
+#: includes/class-members.php:300
+#: includes/class-quote.php:166
+msgid "That option just filled up. Please choose another."
+msgstr ""
+
+#: includes/class-pages.php:58
+msgid "My Box"
+msgstr ""
+
+#: includes/class-pages.php:106
+#: includes/class-self-test.php:39
+msgid "Sign up"
+msgstr ""
+
+#: includes/class-pages.php:107
+#: includes/class-self-test.php:40
+msgid "My box"
+msgstr ""
+
+#: includes/class-pages.php:108
+#: includes/class-self-test.php:41
+msgid "This week's box"
+msgstr ""
+
+#: includes/class-pages.php:216
+msgid "Sign-ups will open here soon."
+msgstr ""
+
+#: includes/class-pages.php:228
+msgid "You're off the list. Thanks for letting us know."
+msgstr ""
+
+#: includes/class-pages.php:231
+msgid "This offer has ended, and the place has gone to the next person. You're still on the waitlist."
+msgstr ""
+
+#: includes/class-privacy.php:34
+#: includes/class-privacy.php:48
+msgid "BoxDay farm share"
+msgstr ""
+
+#: includes/class-privacy.php:74
+msgid "Farm share member"
+msgstr ""
+
+#: includes/class-privacy.php:87
+msgid "Farm share sign-ups"
+msgstr ""
+
+#: includes/class-privacy.php:121
+msgid "Farm share waitlist"
+msgstr ""
+
+#: includes/class-privacy.php:166
+msgid "(erased)"
+msgstr ""
+
+#: includes/class-privacy.php:199
+msgid "When you join our farm share, we keep your name, email, phone, delivery address if you chose delivery, your share, pickup place and schedule, the weeks you skip or swap, and when you agreed to our member agreement. We use these to pack and hand out your box and to email you about it."
+msgstr ""
+
+#: includes/class-privacy.php:200
+msgid "If you join our waitlist, we keep your name, email, phone and the share you asked for, to offer you a place."
+msgstr ""
+
+#: includes/class-privacy.php:201
+msgid "Payments go through our normal checkout. We never see or store your card. Pickup helpers see only your name, box and swaps."
+msgstr ""
+
+#. translators: %s: season name.
+#: includes/class-quote.php:159
+#: includes/class-quote.php:162
+#: includes/class-signup-page.php:130
+#: includes/class-signup-page.php:148
+#, php-format
+msgid "Sign-ups are closed for %s."
+msgstr ""
+
+#: includes/class-roster.php:26
+msgid "Check"
+msgstr ""
+
+#: includes/class-roster.php:27
+msgid "Cash"
+msgstr ""
+
+#: includes/class-roster.php:28
+msgid "Other"
+msgstr ""
+
+#: includes/class-roster.php:40
+msgid "Please enter a valid email."
+msgstr ""
+
+#: includes/class-roster.php:93
+msgid "Added by hand in BoxDay."
+msgstr ""
+
+#: includes/class-roster.php:111
+msgid "Marked paid in BoxDay."
+msgstr ""
+
+#: includes/class-roster.php:191
+msgid "The email isn't valid."
+msgstr ""
+
+#. translators: %s: share name from the file.
+#: includes/class-roster.php:194
+#, php-format
+msgid "There's no share called \"%s\" in this season."
+msgstr ""
+
+#. translators: %s: size name from the file.
+#: includes/class-roster.php:197
+#, php-format
+msgid "There's no size called \"%s\" for that share."
+msgstr ""
+
+#. translators: %s: site name from the file.
+#: includes/class-roster.php:200
+#, php-format
+msgid "There's no pickup place called \"%s\" in this season."
+msgstr ""
+
+#. translators: %s: year.
+#: includes/class-sample.php:68
+#, php-format
+msgid "Summer %s"
+msgstr ""
+
+#: includes/class-sample.php:83
+msgid "We share the season. When you join, you share both the good and the hard parts of farming with us. Weather, pests and crop failures can change what's in your box and how much you get."
+msgstr ""
+
+#: includes/class-sample.php:92
+msgid "Feeds 3 to 4 people"
+msgstr ""
+
+#: includes/class-sample.php:93
+msgid "Feeds 1 to 2 people"
+msgstr ""
+
+#: includes/class-sample.php:94
+#: includes/class-sample.php:95
+msgid "Eggs"
+msgstr ""
+
+#: includes/class-sample.php:94
+msgid "A dozen each box"
+msgstr ""
+
+#: includes/class-sample.php:96
+#: includes/class-sample.php:97
+msgid "Flowers"
+msgstr ""
+
+#: includes/class-sample.php:96
+msgid "A bunch each box"
+msgstr ""
+
+#: includes/class-sample.php:99
+msgid "Farm Stand"
+msgstr ""
+
+#: includes/class-sample.php:100
+msgid "Market"
+msgstr ""
+
+#: includes/class-sample.php:163
+msgid "Tomatoes"
+msgstr ""
+
+#: includes/class-sample.php:164
+msgid "Carrots"
+msgstr ""
+
+#: includes/class-sample.php:165
+msgid "Lettuce"
+msgstr ""
+
+#: includes/class-sample.php:166
+msgid "Kale"
+msgstr ""
+
+#: includes/class-sample.php:173
+msgid "Chard"
+msgstr ""
+
+#: includes/class-sample.php:174
+msgid "Beets"
+msgstr ""
+
+#: includes/class-sample.php:179
+msgid "First tomatoes of the year! The kale loved all that rain."
+msgstr ""
+
+#. translators: %s: season name.
+#: includes/class-seasons.php:312
+#, php-format
+msgid "%s (copy)"
+msgstr ""
+
+#: includes/class-self-test.php:23
+msgid "WooCommerce is active"
+msgstr ""
+
+#. translators: %s: payment methods.
+#: includes/class-self-test.php:29
+#, php-format
+msgid "Members can pay by %s"
+msgstr ""
+
+#: includes/class-self-test.php:33
+msgid "Your site is set to UTC. Pick your city, or cut-offs will be at the wrong time"
+msgstr ""
+
+#. translators: %s: time zone.
+#: includes/class-self-test.php:35
+#, php-format
+msgid "Cut-offs use %s"
+msgstr ""
+
+#. translators: %s: page names.
+#: includes/class-self-test.php:50
+#, php-format
+msgid "%s is missing."
+msgstr ""
+
+#. translators: %s: page names.
+#: includes/class-self-test.php:50
+msgid "Create it"
+msgstr ""
+
+#: includes/class-self-test.php:51
+msgid "Your three pages are in place"
+msgstr ""
+
+#: includes/class-self-test.php:53
+msgid "Emails and reminders are running"
+msgstr ""
+
+#: includes/class-self-test.php:54
+msgid "Scheduled jobs haven't run in over an hour. Ask your host if WP-Cron is off"
+msgstr ""
+
+#. translators: %s: page path.
+#: includes/class-self-test.php:58
+#, php-format
+msgid "Your site may be caching the member page. Exclude %s from your cache"
+msgstr ""
+
+#: includes/class-self-test.php:59
+msgid "The member page isn't being cached"
+msgstr ""
+
+#: includes/class-self-test.php:62
+msgid "block checkout"
+msgstr ""
+
+#: includes/class-self-test.php:62
+msgid "classic checkout"
+msgstr ""
+
+#. translators: %s: checkout kind.
+#: includes/class-self-test.php:64
+#, php-format
+msgid "Your checkout page uses the %s"
+msgstr ""
+
+#. translators: %s: checkout kind.
+#: includes/class-self-test.php:64
+msgid "We couldn't find your checkout page. Set it in WooCommerce, Settings, Advanced"
+msgstr ""
+
+#. translators: %s: checkout kind.
+#: includes/class-self-test.php:64
+msgid "Open settings"
+msgstr ""
+
+#: includes/class-self-test.php:74
+msgid "We repaired the hidden products behind your shares"
+msgstr ""
+
+#: includes/class-self-test.php:74
+msgid "Every share has its hidden checkout product"
+msgstr ""
+
+#: includes/class-self-test.php:75
+msgid "Didn't arrive? Your host may be blocking mail. An SMTP plugin usually fixes this"
+msgstr ""
+
+#: includes/class-self-test.php:75
+msgid "Send test email"
+msgstr ""
+
+#. translators: %s: date.
+#: includes/class-signup-page.php:127
+#, php-format
+msgid "Sign-ups open %s."
+msgstr ""
+
+#. translators: %s: date and time.
+#: includes/class-signup-page.php:157
+#, php-format
+msgid "We're holding this place for you until %s."
+msgstr ""
+
+#: includes/class-signup-page.php:167
+msgid "boxes"
+msgstr ""
+
+#. translators: %s: date.
+#: includes/class-signup-page.php:168
+#, php-format
+msgid "First box: %s."
+msgstr ""
+
+#. translators: %s: word for a share.
+#: includes/class-signup-page.php:173
+#, php-format
+msgid "Choose your %s"
+msgstr ""
+
+#: includes/class-signup-page.php:179
+msgid "Where will you collect it?"
+msgstr ""
+
+#: includes/class-signup-page.php:183
+msgid "Your total"
+msgstr ""
+
+#. translators: %s: word for a share, capitalized.
+#: includes/class-signup-page.php:200
+#, php-format
+msgid "%s is full for now. Join the waitlist and we'll email you if a place opens up."
+msgstr ""
+
+#. translators: 1: first date, 2: last date, 3: weeks.
+#: includes/class-signup-page.php:241
+#, php-format
+msgid "%1$s to %2$s, %3$d weeks."
+msgstr ""
+
+#. translators: 1: boxes, 2: date.
+#: includes/class-signup-page.php:355
+#, php-format
+msgid "You'll get %1$d boxes. Your first is %2$s."
+msgstr ""
+
+#. translators: %d: places left.
+#: includes/class-signup-page.php:377
+#, php-format
+msgid "%d left"
+msgstr ""
+
+#. translators: %s: fee.
+#: includes/class-signup-page.php:391
+#, php-format
+msgid "%s a box"
+msgstr ""
+
+#: includes/class-signup-page.php:399
+msgid "Your ZIP code"
+msgstr ""
+
+#: includes/class-signup-page.php:400
+msgid "Street address"
+msgstr ""
+
+#. translators: %s: ZIP code.
+#: includes/class-signup-page.php:404
+#, php-format
+msgid "We don't deliver to %s yet. You can pick up at one of these places."
+msgstr ""
+
+#: includes/class-signup-page.php:431
+msgid "Add something extra?"
+msgstr ""
+
+#. translators: 1: date, 2: boxes.
+#: includes/class-signup-page.php:453
+#, php-format
+msgid "First box: %1$s. %2$d boxes."
+msgstr ""
+
+#. translators: 1: boxes left, 2: boxes in all, 3: boxes left.
+#: includes/class-signup-page.php:455
+#, php-format
+msgid "%1$d of %2$d boxes left, so you pay for %3$d."
+msgstr ""
+
+#. translators: 1: boxes, 2: fee.
+#: includes/class-signup-page.php:463
+#, php-format
+msgid "Delivery: %1$d boxes at %2$s"
+msgstr ""
+
+#. translators: %s: amount.
+#: includes/class-signup-page.php:466
+#, php-format
+msgid "Total: %s"
+msgstr ""
+
+#. translators: %s: amount.
+#: includes/class-signup-page.php:475
+#, php-format
+msgid "Today: %s"
+msgstr ""
+
+#: includes/class-signup-page.php:479
+msgid "No fees, no interest. We'll email you a link before each payment."
+msgstr ""
+
+#: includes/class-signup-page.php:496
+msgid "I've read and agree to the member agreement."
+msgstr ""
+
+#: includes/class-signup-page.php:498
+msgid "Read the member agreement"
+msgstr ""
+
+#: includes/class-waitlist.php:65
+#: includes/class-waitlist.php:79
+msgid "Join the waitlist"
+msgstr ""
+
+#. translators: %s: word for a share.
+#: includes/class-waitlist.php:69
+#, php-format
+msgid "Which %s?"
+msgstr ""
+
+#: includes/class-waitlist.php:75
+msgid "Where could you collect it?"
+msgstr ""
+
+#: includes/class-waitlist.php:91
+msgid "You're on the list. We'll email you if a place opens up."
+msgstr ""
+
+#: blocks/member/block.json
+msgctxt "block title"
+msgid "BoxDay member page"
+msgstr ""
+
+#: blocks/signup/block.json
+msgctxt "block title"
+msgid "BoxDay sign-up"
+msgstr ""
+
+#: blocks/this-week/block.json
+msgctxt "block title"
+msgid "BoxDay this week's box"
+msgstr ""
+
+msgid "Take yourself off the waitlist?"
+msgstr ""

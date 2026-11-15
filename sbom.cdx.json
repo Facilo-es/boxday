@@ -1,0 +1,209 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:e3764dab-be8f-5543-9087-9bd447e6c606",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-07T00:00:00Z",
+  "supplier": {
+   "name": "Facilo",
+   "url": [
+    "https://facilo.es"
+   ],
+   "contact": [
+    {
+     "email": "info@facilo.es"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "name": "boxday",
+   "version": "1.0.0",
+   "description": "BoxDay, CSA farm shares for WooCommerce. No bundled third-party code.",
+   "licenses": [
+    {
+     "license": {
+      "id": "GPL-2.0-or-later"
+     }
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "framework",
+   "name": "woocommerce",
+   "scope": "required",
+   "description": "Required plugin, installed separately, not bundled"
+  },
+  {
+   "type": "framework",
+   "name": "wordpress",
+   "scope": "required",
+   "description": "Host, version 6.6 or later, not bundled"
+  },
+  {
+   "type": "data",
+   "name": "photo-carrots",
+   "description": "Carrot bunches.jpg by Jeffery Martin",
+   "licenses": [
+    {
+     "license": {
+      "name": "CC0"
+     }
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://commons.wikimedia.org/wiki/File:Carrot_bunches.jpg"
+    }
+   ]
+  },
+  {
+   "type": "data",
+   "name": "photo-tomatoes",
+   "description": "Heirloom Tomatoes on Wooden Board (Unsplash).jpg by Vince Lee vklee",
+   "licenses": [
+    {
+     "license": {
+      "name": "CC0"
+     }
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://commons.wikimedia.org/wiki/File:Heirloom_Tomatoes_on_Wooden_Board_(Unsplash).jpg"
+    }
+   ]
+  },
+  {
+   "type": "data",
+   "name": "photo-lettuce",
+   "description": "Stack of romaine lettuce heads.jpg by Jeffery Martin",
+   "licenses": [
+    {
+     "license": {
+      "name": "CC0"
+     }
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://commons.wikimedia.org/wiki/File:Stack_of_romaine_lettuce_heads.jpg"
+    }
+   ]
+  },
+  {
+   "type": "data",
+   "name": "photo-chard",
+   "description": "Organic Swiss chard bunches.jpg by Jeffery Martin",
+   "licenses": [
+    {
+     "license": {
+      "name": "CC0"
+     }
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://commons.wikimedia.org/wiki/File:Organic_Swiss_chard_bunches.jpg"
+    }
+   ]
+  },
+  {
+   "type": "data",
+   "name": "photo-beets",
+   "description": "Beta vulgaris, San Francisco farmers market.jpg by Frank Schulenburg",
+   "licenses": [
+    {
+     "license": {
+      "name": "CC0"
+     }
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://commons.wikimedia.org/wiki/File:Beta_vulgaris,_San_Francisco_farmers_market.jpg"
+    }
+   ]
+  },
+  {
+   "type": "data",
+   "name": "photo-kale",
+   "description": "CSA-Red-Russian-Kale.jpg by Evan-Amos",
+   "licenses": [
+    {
+     "license": {
+      "name": "Public domain"
+     }
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://commons.wikimedia.org/wiki/File:CSA-Red-Russian-Kale.jpg"
+    }
+   ]
+  },
+  {
+   "type": "data",
+   "name": "photo-kale2",
+   "description": "Kale-Bundle.jpg by Evan-Amos",
+   "licenses": [
+    {
+     "license": {
+      "name": "CC0"
+     }
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://commons.wikimedia.org/wiki/File:Kale-Bundle.jpg"
+    }
+   ]
+  },
+  {
+   "type": "data",
+   "name": "photo-eggs",
+   "description": "Brown-eggs.jpg by Photos public domain.com",
+   "licenses": [
+    {
+     "license": {
+      "name": "Public domain"
+     }
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://commons.wikimedia.org/wiki/File:Brown-eggs.jpg"
+    }
+   ]
+  },
+  {
+   "type": "data",
+   "name": "photo-flowers",
+   "description": "Sunflowers for Sale at Farmers Market.jpg by Alabama Extension",
+   "licenses": [
+    {
+     "license": {
+      "name": "CC0"
+     }
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://commons.wikimedia.org/wiki/File:Sunflowers_for_Sale_at_Farmers_Market.jpg"
+    }
+   ]
+  }
+ ]
+}

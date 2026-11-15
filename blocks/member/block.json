@@ -1,0 +1,14 @@
+{
+ "$schema": "https://schemas.wp.org/trunk/block.json",
+ "apiVersion": 3,
+ "name": "boxday/member",
+ "title": "BoxDay member page",
+ "category": "widgets",
+ "icon": "carrot",
+ "textdomain": "boxday",
+ "editorScript": "boxday-blocks",
+ "supports": {
+  "html": false
+ },
+ "attributes": {}
+}
