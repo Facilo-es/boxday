@@ -1,6 +1,6 @@
 # Security
 
-Please report security problems to support@facilo.es. We answer within 2 working days.
+Please report security problems to support@facilo.es and we'll reply by email.
 
 Support period: each BoxDay release gets security fixes for 5 years from its release date. BoxDay Pro gets security fixes for 5 years from purchase, and they reach lapsed Pro licenses on request.
 
